@@ -1,0 +1,56 @@
+.form-area{
+    animation:appear .6s;
+    background:rgba(0,0,0,0.2);
+    padding:15px;
+    box-sizing: border-box;
+    border:1px solid rgba(255,255,255,0.12);
+    border-radius: 3px;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.12);
+}
+input{
+    border:1px solid rgba(0,0,0,0.12);
+    border-radius: 3px;
+    background:white;
+    padding:10px 20px;
+    margin-right: 5px;
+    box-sizing: border-box;
+}
+button{
+    transition: .3s;
+    cursor: pointer;
+    box-shadow:1px 1px 8px rgba(48, 131, 231, 0.55);
+    padding:10px 15px;
+    /*background:radial-gradient(circle at top left,#673AB7, #2196F3);*/
+    color:white;
+    background:transparent;
+    text-shadow:1px 1px 4px rgba(0,0,0,0.12);
+    border:1px solid white;
+    border-radius: 3px;
+}
+button:hover{
+    background:white;
+    color:#2196F3;
+}
+input{
+    border:1px solid rgba(0,0,0,0.12);
+    border-radius: 3px;
+    background:white;
+    padding:10px 20px;
+    box-sizing: border-box;
+}
+@keyframes changeColor{
+    from{
+        filter:hue-rotate(0deg);
+    }to{
+         filter:hue-rotate(180deg);
+     }
+}
+@keyframes appear{
+    from{
+        transform: translateY(-100%);
+        opacity: 0;
+    }to{
+         transform: translateY(0%);
+         opacity: 1;
+     }
+}

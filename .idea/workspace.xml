@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d71708b-f438-4623-8562-5a0a8542ef47" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TGi3zp4xo1dl049UuOCsGNXPOP" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d71708b-f438-4623-8562-5a0a8542ef47" name="Default Changelist" comment="" />
+      <created>1573092637499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573092637499</updated>
+      <workItem from="1573092640116" duration="1246000" />
+      <workItem from="1573095872183" duration="2075000" />
+      <workItem from="1573132242512" duration="1998000" />
+      <workItem from="1573136912716" duration="4093000" />
+      <workItem from="1573181321525" duration="3539000" />
+      <workItem from="1574130307163" duration="2058000" />
+      <workItem from="1574654598839" duration="2032000" />
+      <workItem from="1579448313202" duration="1425000" />
+      <workItem from="1579488833755" duration="30000" />
+      <workItem from="1579488991328" duration="48000" />
+      <workItem from="1579489082610" duration="103000" />
+      <workItem from="1579489244906" duration="304000" />
+      <workItem from="1579489592844" duration="1930000" />
+      <workItem from="1579524373049" duration="1757000" />
+      <workItem from="1579526171144" duration="1812000" />
+      <workItem from="1579528083239" duration="1117000" />
+      <workItem from="1579533594778" duration="1779000" />
+      <workItem from="1579535913705" duration="1570000" />
+      <workItem from="1579537910191" duration="2109000" />
+      <workItem from="1579577151396" duration="1749000" />
+      <workItem from="1579579865291" duration="954000" />
+      <workItem from="1579593142360" duration="1764000" />
+      <workItem from="1579594956730" duration="1020000" />
+      <workItem from="1579601092234" duration="826000" />
+      <workItem from="1579604181597" duration="627000" />
+      <workItem from="1579609348576" duration="1775000" />
+      <workItem from="1579611162623" duration="2068000" />
+      <workItem from="1579711267952" duration="1770000" />
+      <workItem from="1579714864288" duration="621000" />
+      <workItem from="1579793772165" duration="919000" />
+      <workItem from="1579828282513" duration="1307000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

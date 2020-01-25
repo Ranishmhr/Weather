@@ -1,0 +1,44 @@
+body{
+    font-size: 15pt;
+    color:white;
+}
+.weather__value{
+    text-transform: capitalize;
+}
+
+.weather_temp{
+    text-align: center;
+
+}
+.weather_temp>img{
+height:50px;
+width:50px;
+}
+.weather_temp>span{
+        margin-left: 0;
+        font-size:50pt;
+    }
+.weather_location{
+    text-align: center;
+
+    height: 0px;
+}
+.weather_location>img{
+    height:15px;
+    width:15px;
+}
+.weather_location>span{
+    margin-top: 0;
+    font-size:14pt;
+}
+img{
+    height:15px;
+    width: 15px;
+}
+p>button{
+    margin-left: 40%;
+
+}
+p{
+    margin-bottom: 0px;
+}

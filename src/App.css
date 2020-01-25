@@ -1,0 +1,56 @@
+body{
+	margin:0;
+	font-family: sans-serif;
+	background: rgba(0,0,0,0.05)
+}
+section{
+	background:radial-gradient(circle at top left,#673AB7, #2196F3);
+	height:100vh;
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.weather.few_clouds {
+	background-image: url("img/few clouds.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.weather.clear_sky{
+	background-image: url("img/clear sky.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.weather.mist{
+	background-image: url("img/mist.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.weather.fog{
+	background-image: url("img/fog.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.weather.broken_clouds{
+	background-image: url("img/broken clouds.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.weather.overcast{
+    background-image: url("img/overcast.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.weather.smoke{
+	background-image: url("img/smoke.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+weather.rain{
+	background-image: url("img/rain.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
