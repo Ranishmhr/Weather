@@ -1,5 +1,6 @@
 import React from "react";
 import './Weather.css'
+
 import location from './location.png'
 import temp from './temp.png'
 import humidity from './humidity.png'
@@ -7,6 +8,7 @@ import condition from './condition.png'
 import sunrise from './sunrise.png'
 import wind from './wind.png'
 import moment from "moment";
+import "moment-timezone";
 import WeekWeather from "../../container/Body/WeekWeather/WeekWeather";
 
 const Weather = props => (

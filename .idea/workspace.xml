@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d71708b-f438-4623-8562-5a0a8542ef47" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Weather/Map.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Weather/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Weather/Weather.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather/Weather.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Weather/Weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather/Weather.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/container/Body/Body.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/Body/Body.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/container/Body/Body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/Body/Body.js" afterDir="false" />
     </list>
@@ -16,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -105,7 +113,16 @@
       <workItem from="1580001031528" duration="1655000" />
       <workItem from="1580002960934" duration="1075000" />
       <workItem from="1580006195212" duration="2103000" />
-      <workItem from="1580008554234" duration="336000" />
+      <workItem from="1580008554234" duration="1586000" />
+      <workItem from="1580010395451" duration="1831000" />
+      <workItem from="1580012463721" duration="1782000" />
+      <workItem from="1580014284717" duration="1815000" />
+      <workItem from="1580016489429" duration="954000" />
+      <workItem from="1580020258392" duration="1842000" />
+      <workItem from="1580022140513" duration="1800000" />
+      <workItem from="1580023977887" duration="1796000" />
+      <workItem from="1580025802487" duration="240000" />
+      <workItem from="1580026065592" duration="1782000" />
     </task>
     <servers />
   </component>

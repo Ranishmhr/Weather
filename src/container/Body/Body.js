@@ -6,13 +6,13 @@ import Weather from "../../components/Weather/Weather";
 import WeekWeather from './WeekWeather/WeekWeather';
 import axios from 'axios';
 import Moreinfo from "../../components/Weather/Moreinfo";
-import ReactWeather from 'react-open-weather';
-import 'react-open-weather/lib/css/ReactWeather.css';
+// import ReactWeather from 'react-open-weather';
+// import 'react-open-weather/lib/css/ReactWeather.css';
 import MapContainer from "../../components/Weather/Map";
 const API_KEY = "dd7f759d261762ebbb8cb130af247f30";
 const API2_KEY="1130b709-f3a0-40a7-8338-60a03161e4ab";
 class Body extends Component{
-    state = {
+    state ={
       location:undefined,
         temperature: undefined,
         city: undefined,
@@ -24,11 +24,14 @@ class Body extends Component{
         sunset:undefined,
          minTem:undefined,
         maxTem:undefined,
-        error: undefined
+        error: undefined,
+        timezone:undefined,
+        longitude:undefined,
+            latitude:undefined
       }
 
     componentDidMount(){
-        axios.get('https://api.ipfind.com/me?auth=1130b709-f3a0-40a7-8338-60a03161e4ab').
+        axios.get('https://api.ipfind.com/me?auth=d92cbb48-c385-4d42-81b4-2fa5b3246588').
         then(res=>{
             console.log(res);
             this.setState({
@@ -42,23 +45,29 @@ class Body extends Component{
             return axios.get(`http://api.openweathermap.org/data/2.5/weather?q=Kathmandu&units=metric&APPID=dd7f759d261762ebbb8cb130af247f30`);
         })
             .then(response=>{
+                console.log("STATE",response)
                 this.setState({
-                    temperature:response.data.main.temp,
-                    city: response.data.name,
-                    country: response.data.sys.country,
-                    humidity: response.data.main.humidity,
-                    description: response.data.weather[0].description,
-                    wind:response.data.wind.speed  ,
-                    sunrise:response.data.sys.sunrise,
-                    sunset:response.data.sys.sunset,
-                    minTem:response.data.main.temp_min,
-                    maxTem:response.data.main.temp_max,
-                })
-                console.log(response);
+                temperature:response.data.main.temp,
+                city: response.data.name,
+                country: response.data.sys.country,
+                description: response.data.weather[0].description,
+                humidity: response.data.main.humidity,
+                wind:response.data.wind.speed  ,
+                sunrise:response.data.sys.sunrise,
+                sunset:response.data.sys.sunset,
+                minTem:response.data.main.temp_min,
+                maxTem:response.data.main.temp_max,
+                timezone:response.data.timezone,
+                    latitude:response.data.latitude,
+                    longitude:response.data.longitude
+            })
+                console.log(this.state.timezone);
                 console.log("58");
-                return axios.get('https://tile.openweathermap.org/map/clouds_new/10/27.72/85.53.png?appid=dd7f759d261762ebbb8cb130af247f30');
+                console.log(response);
+                return axios.get('https://tile.openweathermap.org/map/pressure_new/14/27/85.png?appid=dd7f759d261762ebbb8cb130af247f30');
             })
             .then(response=>{
+
                 console.log(response);
                 console.log("Response");
             })
@@ -78,6 +87,7 @@ class Body extends Component{
         const data = await api_call.json();
         if (city) {
           if(city===data.name){
+              console.log("RESPONSE DATA",data)
           this.setState({
             temperature: data.main.temp,
             city: data.name,
@@ -89,7 +99,9 @@ class Body extends Component{
             sunset:data.sys.sunset,
             minTem:data.main.temp_min,
             maxTem:data.main.temp_max,
-            error: ""
+            error: "",
+              latitude: data.coord.lat,
+              longitude:data.coord.lon
           });
         }
         else{
@@ -157,6 +169,7 @@ class Body extends Component{
     
       }
       render() {
+        console.log("STATE",this.state)
         return (
             <div className="body">
               <section className={'weather '+this.changeTemperature()}>
@@ -185,14 +198,17 @@ class Body extends Component{
                   </div>
 
                   {/*<ReactWeather*/}
-                  {/*    forecast="today"*/}
+                  {/*    forecast="5days"*/}
                   {/*    apikey="dd7f759d261762ebbb8cb130af247f30"*/}
                   {/*    type="city"*/}
                   {/*    city={"Kathmandu"}*/}
                   {/*/>*/}
                   <div className={"map"}>
-                    <MapContainer/>
+                    <MapContainer longitute={this.state.longitude} latitude={this.state.latitude}
+                    />
                   </div>
+                  <div className={"Ad1"}>This is ad space</div>
+                  <div className={"Ad2"}>This is ad space </div>
                 
               </section>
     

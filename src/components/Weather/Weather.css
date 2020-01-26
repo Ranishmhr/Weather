@@ -14,6 +14,10 @@ body{
 height:50px;
 width:50px;
 }
+.weather-info{
+
+
+}
 .weather_temp>span{
         margin-left: 0;
         font-size:50pt;
