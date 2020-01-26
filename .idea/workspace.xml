@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d71708b-f438-4623-8562-5a0a8542ef47" name="Default Changelist" comment="" />
+    <list default="true" id="4d71708b-f438-4623-8562-5a0a8542ef47" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Weather/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Loader/Loader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Loader/Loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Logo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/NavItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Weather/Moreinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather/Moreinfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Weather/Weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather/Weather.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/container/NavItems.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/container/TopNav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/broken clouds.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/clear sky.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/few clouds.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/fog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mist.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/overcast.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/rain.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/smoke.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/LabRat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/LabRat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/LabratChora.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/LabratNati.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/movies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/MovieDescription/MovieDescription.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Search/Search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Settings/Settings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/welcome/Welcome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/welcome/Welcome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/welcome/component/MovieCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/welcome/container/SideNav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/welcome/container/WelcomeContent.js" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,12 +52,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TGi3zp4xo1dl049UuOCsGNXPOP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -24,6 +69,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -78,10 +124,38 @@
       <workItem from="1579714864288" duration="621000" />
       <workItem from="1579793772165" duration="919000" />
       <workItem from="1579828282513" duration="1307000" />
+      <workItem from="1579925126402" duration="708000" />
+      <workItem from="1579946208109" duration="238000" />
+      <workItem from="1579946585446" duration="1516000" />
+      <workItem from="1579948666895" duration="1789000" />
+      <workItem from="1579950556077" duration="1788000" />
+      <workItem from="1579952385748" duration="1788000" />
+      <workItem from="1579954199408" duration="1788000" />
+      <workItem from="1579956020068" duration="1825000" />
+      <workItem from="1579957929718" duration="2166000" />
+      <workItem from="1579960496125" duration="1772000" />
+      <workItem from="1579963206341" duration="1224000" />
+      <workItem from="1579968844185" duration="1806000" />
+      <workItem from="1579971944837" duration="1221000" />
+      <workItem from="1579973276437" duration="1717000" />
+      <workItem from="1580001031528" duration="1655000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

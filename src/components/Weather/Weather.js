@@ -7,7 +7,7 @@ import condition from './condition.png'
 import sunrise from './sunrise.png'
 import wind from './wind.png'
 import moment from "moment";
-import Moreinfo from "./Moreinfo";
+import WeekWeather from "../../container/Body/WeekWeather/WeekWeather";
 
 const Weather = props => (
 	<div className="weather-info">
@@ -28,6 +28,7 @@ const Weather = props => (
 	 	</p>
 
 	 }
+	 <div className="addInfo">
 	 { 	
 	 	props.humidity && <p className="weather__key">
 			<img src={humidity}  />
@@ -76,15 +77,14 @@ const Weather = props => (
 				Max Temperature:
 				<span className="weather__value"> {props.maxTem}°C </span>
 				<br/><br/>
-
-
 			</p>
 		}
-
+       </div>
 	 { 
 	 	props.error && <p className="weather__error">{ props.error }</p>  
 	 }
-
+	
+    
 	</div>
 );
 

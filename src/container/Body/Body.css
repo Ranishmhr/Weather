@@ -1,0 +1,84 @@
+.form-area{
+    animation:appear .6s;
+    padding:15px;
+    box-sizing: border-box;
+    border:1px solid rgba(255,255,255,0.12);
+    border-radius: 3px;
+	box-shadow: 1px 1px 8px rgba(0,0,0,0.12);
+	position: absolute;
+	top:25px;
+}
+.weatherInfo{
+	animation:appear .6s;
+   
+    padding-top: 160px;
+	position: absolute;
+	left:20px;
+}
+body{
+	margin:0;
+	font-family: sans-serif;
+	background: rgba(0,0,0,0.05)
+}
+section{
+	background:radial-gradient(circle at top left,#673AB7, #2196F3);
+	height:100vh;
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.weather.few_clouds {
+	background-image: url("../../components/img/broken clouds.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.weather.clear_sky{
+	background-image: url("../../components/img/clear sky.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.weather.mist{
+	background-image: url("../../components/img/mist.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.weather.fog{
+	background-image: url("../../components/img/fog.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.weather.broken_clouds{
+	background-image: url("../../components/img/broken clouds.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.weather.overcast{
+    background-image: url("../../components/img/overcast.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.weather.smoke{
+	background-image: url("../../components/img/smoke.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+weather.rain{
+	background-image: url("../../components/img/rain.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.rw-box{
+	margin-top: 100px;
+	width: 600px;
+	height: 300px;
+	margin-left: 10px;
+}
+.map{
+    margin-top: 100px;
+    width: 600px;
+    height: 300px;
+    margin-left: 10px;
+}

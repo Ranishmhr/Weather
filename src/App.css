@@ -13,42 +13,42 @@ section{
 
 }
 .weather.few_clouds {
-	background-image: url("img/few clouds.jpg");
+	background-image: url("components/img/few clouds.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .weather.clear_sky{
-	background-image: url("img/clear sky.jpg");
+	background-image: url("components/img/clear sky.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .weather.mist{
-	background-image: url("img/mist.jpg");
+	background-image: url("components/img/mist.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .weather.fog{
-	background-image: url("img/fog.jpg");
+	background-image: url("components/img/fog.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .weather.broken_clouds{
-	background-image: url("img/broken clouds.jpg");
+	background-image: url("components/img/broken clouds.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .weather.overcast{
-    background-image: url("img/overcast.jpg");
+    background-image: url("components/img/overcast.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .weather.smoke{
-	background-image: url("img/smoke.jpg");
+	background-image: url("components/img/smoke.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 weather.rain{
-	background-image: url("img/rain.jpeg");
+	background-image: url("components/img/rain.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
