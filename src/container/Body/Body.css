@@ -77,8 +77,10 @@ div.rw-box{
 	margin-left: 10px;
 }
 .map{
-    margin-top: 100px;
+    position: absolute;
+    margin-top: 80px;
     width: 600px;
-    height: 300px;
+    height: 400px;
+
     margin-left: 10px;
 }

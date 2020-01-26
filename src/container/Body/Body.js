@@ -39,7 +39,7 @@ class Body extends Component{
             })
             console.log(this.state.location)
             console.log(this.state.city)
-            return axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${this.state.location}&units=metric&APPID=dd7f759d261762ebbb8cb130af247f30`);
+            return axios.get(`http://api.openweathermap.org/data/2.5/weather?q=Kathmandu&units=metric&APPID=dd7f759d261762ebbb8cb130af247f30`);
         })
             .then(response=>{
                 this.setState({
@@ -55,10 +55,16 @@ class Body extends Component{
                     maxTem:response.data.main.temp_max,
                 })
                 console.log(response);
+                console.log("58");
+                return axios.get('https://tile.openweathermap.org/map/clouds_new/10/27.72/85.53.png?appid=dd7f759d261762ebbb8cb130af247f30');
             })
-        console.log("46");
+            .then(response=>{
+                console.log(response);
+                console.log("Response");
+            })
 
     }
+    
       getWeather = async (e) => {
           e.preventDefault();
         const city = e.target.city.value;

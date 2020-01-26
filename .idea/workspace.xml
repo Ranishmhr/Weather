@@ -2,46 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d71708b-f438-4623-8562-5a0a8542ef47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Weather/Map.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Dashboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Loader/Loader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Loader/Loader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Logo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/NavItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Weather/Moreinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather/Moreinfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Weather/Weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather/Weather.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/NavItems.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/TopNav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/broken clouds.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/clear sky.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/few clouds.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/fog.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/mist.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/overcast.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/rain.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/smoke.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/LabRat.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/LabRat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/LabratChora.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/LabratNati.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/movies.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/MovieDescription/MovieDescription.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Search/Search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Settings/Settings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/welcome/Welcome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/welcome/Welcome.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/welcome/component/MovieCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/welcome/container/SideNav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/welcome/container/WelcomeContent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Weather/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/container/Body/Body.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/Body/Body.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/container/Body/Body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/Body/Body.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,6 +103,9 @@
       <workItem from="1579971944837" duration="1221000" />
       <workItem from="1579973276437" duration="1717000" />
       <workItem from="1580001031528" duration="1655000" />
+      <workItem from="1580002960934" duration="1075000" />
+      <workItem from="1580006195212" duration="2103000" />
+      <workItem from="1580008554234" duration="336000" />
     </task>
     <servers />
   </component>
