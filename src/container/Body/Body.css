@@ -30,11 +30,11 @@ section{
 	align-items: center;
 
 }
-.weather.few_clouds {
+/* .weather.few_clouds {
 	background-image: url("../../components/img/broken clouds.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-}
+} */
 .weather.clear_sky{
 	background-image: url("../../components/img/clear sky.jpg");
 	background-repeat: no-repeat;
@@ -50,7 +50,7 @@ section{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.weather.broken_clouds{
+.weather.brokenclouds{
 	background-image: url("../../components/img/broken clouds.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -65,7 +65,7 @@ section{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-weather.rain{
+.weather.rain{
 	background-image: url("../../components/img/rain.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;

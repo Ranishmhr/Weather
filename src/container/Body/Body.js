@@ -157,9 +157,13 @@ class Body extends Component{
         if(this.state.description === 'haze') {
           return 'mist'
         }
-        if(this.state.description === 'broken clouds'|| this.state.description==='scattered clouds'){
-          return 'broken_clouds'
+        if(this.state.description === 'broken clouds'){ 
+          return 'brokenclouds'
         }
+        if(this.state.description === 'scattered clouds'){ 
+          return 'brokenclouds'
+        }
+
         if(this.state.description === 'smoke'){
           return 'smoke'
         }

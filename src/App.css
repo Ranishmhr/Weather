@@ -14,10 +14,11 @@ section{
 }
 .weather.few_clouds {
 	background-image: url("components/img/few clouds.jpg");
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.weather.clear_sky{
+/* .weather.clear_sky{
 	background-image: url("components/img/clear sky.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -53,4 +54,4 @@ weather.rain{
 	background-size: cover;
 }
 
-
+ */
